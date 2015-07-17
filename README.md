@@ -13,3 +13,6 @@ After building the image you can run it with the following options:
 `-d` to run the container in detached mode
 
   ```docker run –d -p "your SNORQL port":80 snorql-docker:latest```
+  
+  
+NOTE: To use the "Result: Browse" mode of SNORQL, CORS must be allowed.
